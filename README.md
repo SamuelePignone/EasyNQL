@@ -152,6 +152,9 @@ Helper Methods:
 - **fix_error_message(error: str, question: str = None, sql_query: str = None) -> str**: Attempt to correct SQL errors using the LLM.
 - **generate_human_response(query_results: str, question: str = None) -> str**: Given query results, produce a human-like summary.
 
+## Known Issues and Future Improvements
+Right now EasyNQL is in its early stages, it doesn't consider if some columns are sensitive or not, so it's important to be careful with the questions you ask and don't use it with sensitive data.
+
 ## Contributing
 Contributions are welcome! If you have suggestions, improvements, or feature requests, please open an issue or submit a pull request.
 
