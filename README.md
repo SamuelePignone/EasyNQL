@@ -7,6 +7,18 @@ EasyNQL is a Python-based tool that transforms natural language questions into S
 - **Automate error correction** for queries, thanks to LLM-powered corrections.
 - Extract a **database schema** using a dedicated script.
 
+---
+
+## Table of Contents
+1. [Features](#features)  
+2. [Requirements](#requirements)  
+3. [Installation](#installation)  
+4. [Usage Examples](#usage-examples)  
+5. [Extracting the Schema](#extracting-the-schema)  
+6. [Documentation](#documentation)
+7. [Known Issues and Future Improvements](#known-issues-and-future-improvements)
+8. [Contributing](#contributing)
+
 ## Features
 
 - **Natural Language to SQL**  
@@ -62,7 +74,8 @@ The choice of Ollama model can significantly impact the performance and accuracy
 Ensure that the Ollama model you want to use (e.g., qwen2.5-coder:1.5b) is available. Refer to [Ollama’s Library](https://ollama.com/library) to manage models.
 Qwen 2.5 coder 1.5b is a good trade-off between performance and resource consumption.
 
-## Usage Examples
+## Usage Examples
+
 1. Generate SQL Only
 If you just want to generate SQL from natural language (without executing it), you only need the schema file and the model:
 
