@@ -39,8 +39,8 @@ EasyNQL is a Python-based tool that transforms natural language questions into S
 1. Clone the repository:
 
 ```bash
-git clone 
-cd easy_nql
+git clone https://github.com/SamuelePignone/EasyNQL.git
+cd EasyNQL
 ```
 
 2. Install dependencies:
